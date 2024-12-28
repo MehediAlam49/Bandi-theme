@@ -1,0 +1,57 @@
+/* header start */
+header{
+    background-color: #19283f;
+}
+
+header .navbar-brand {
+  font-family: "Brush Script MT", cursive;
+  font-size: 1.5rem;
+  color: white;
+} 
+header .navbar-brand:hover {
+  color: white;
+}
+header .nav-link {
+  color: white;
+  margin-right: 15px;
+}
+header .nav-link:hover {
+  color: #00d9d9;
+}
+header .search-icon {
+  color: white;
+  font-size: 1.2rem;
+}
+header .search-icon:hover {
+  color: #00d9d9;
+}
+header .login-btn {
+  background-color: #ff4646;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+header .login-btn:hover {
+  background-color: #e53e3e;
+}
+
+header .heading {
+    font-family: "Roboto", serif;
+    padding-top: 135px;
+    padding-bottom: 140px;
+}
+header .heading h1 {
+    color: #f0f8fb;
+    font-size: 50px;
+    font-weight: 300;
+}
+header .heading p {
+    color: #a8b9c0;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+/* header end */

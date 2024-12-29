@@ -1,13 +1,46 @@
+/* common style */
+body {
+  font-family: "Roboto", serif;
+}
+.all_btn {
+  background-color: #ff3150;
+  color: #ffc501;
+  border: none;
+  padding: 15px 60px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+.all_btn:hover {
+  background-color: #e53e3e;
+}
+.all_heading h2 {
+  padding-top: 48px;
+  font-size: 35px;
+  font-weight: 500;
+  color: #1a2940;
+}
+.all_heading p {
+  color: #a8b9c0;
+  font-size: 15px;
+  font-weight: 400;
+}
+.all_heading hr {
+  color: #00c6bf;
+}
+
+
+
+
 /* header start */
-header{
-    background-color: #19283f;
+header {
+  background-color: #19283f;
 }
 
 header .navbar-brand {
   font-family: "Brush Script MT", cursive;
   font-size: 1.5rem;
   color: white;
-} 
+}
 header .navbar-brand:hover {
   color: white;
 }
@@ -26,32 +59,47 @@ header .search-icon:hover {
   color: #00d9d9;
 }
 header .login-btn {
-  background-color: #ff4646;
-  color: white;
+  background-color: #ff3150;
+  color: #ffc501;
   border: none;
-  padding: 5px 15px;
+  padding: 13px 40px;
   border-radius: 20px;
+  font-size: 15px;
 }
 header .login-btn:hover {
   background-color: #e53e3e;
 }
 
 header .heading {
-    font-family: "Roboto", serif;
-    padding-top: 135px;
-    padding-bottom: 140px;
+  padding-top: 135px;
+  padding-bottom: 140px;
 }
 header .heading h1 {
-    color: #f0f8fb;
-    font-size: 50px;
-    font-weight: 300;
+  color: #f0f8fb;
+  font-size: 50px;
+  font-weight: 300;
 }
 header .heading p {
-    color: #a8b9c0;
-    font-size: 15px;
-    font-weight: 400;
-    margin-bottom: 30px;
+  color: #a8b9c0;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
 
-
 /* header end */
+
+
+/* service section start */
+.service_section .card-body .card-title{
+  color: #ffc501;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.service_section .card-body .card-text{
+  color: #a8b9c0;
+  font-size: 15px;
+  font-weight: 400; 
+}
+
+/* service section end */

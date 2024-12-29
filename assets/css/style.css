@@ -197,3 +197,22 @@ main .team_section .card-body .card-text{
   padding: 35px;
 }
 /* team section end */
+
+/* project section start */
+main .project_section{
+  background-color: #19283f;
+  padding: 114px 0px;
+}
+main .project_section h2{
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 500;
+}
+main .project_section p{
+  color: #a8b9c0;
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+/* project section end */

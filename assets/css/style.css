@@ -90,13 +90,13 @@ header .heading p {
 
 
 /* service section start */
-.service_section .card-body .card-title{
+main .service_section .card-body .card-title{
   color: #ffc501;
   font-size: 20px;
   font-weight: 500;
 }
 
-.service_section .card-body .card-text{
+main .service_section .card-body .card-text{
   color: #a8b9c0;
   font-size: 15px;
   font-weight: 400; 
@@ -106,25 +106,25 @@ header .heading p {
 
 
 /* gallery section start */
-.gallery_section{
+main .gallery_section{
       background-color: #eff7fa;
 }
 
-.gallery_section .nav-pills {
+main .gallery_section .nav-pills {
     --bs-nav-pills-border-radius: var(--bs-border-radius);
     --bs-nav-pills-link-active-color: #ffc501;
     --bs-nav-pills-link-active-bg: #ff3150;
 }
-.gallery_section .nav {
+main .gallery_section .nav {
     --bs-nav-link-color: #adbdc4;
     --bs-nav-link-hover-color: #8a969c;
 }
 
-.gallery_section .gallery_box{
+main .gallery_section .gallery_box{
     position: relative;
     
 }
-.gallery_section .gallery_box .gallery_content {
+main .gallery_section .gallery_box .gallery_content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -140,7 +140,7 @@ header .heading p {
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
 }
-.gallery_section .gallery_box .gallery_content .heading{
+main .gallery_section .gallery_box .gallery_content .heading{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -148,7 +148,7 @@ header .heading p {
     font-family: "Roboto", serif;
     
 }
-.gallery_section .gallery_box .gallery_content:hover{
+main .gallery_section .gallery_box .gallery_content:hover{
     opacity: 1;
 }
 /* gallery section end */

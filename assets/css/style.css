@@ -216,3 +216,18 @@ main .project_section p{
   padding-bottom: 30px;
 }
 /* project section end */
+
+/* blog section start */
+main .blog_section{
+  padding-bottom: 56px;
+}
+main .blog_section .card-body .card-title{
+  color: #1a2940;
+  font-size: 20px;
+}
+main .blog_section .card-body .card-text{
+  color: #a8b9c0;
+  font-size: 13px;
+  font-weight: 400; 
+}
+/* blog section end */
